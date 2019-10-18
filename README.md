@@ -1,5 +1,5 @@
 
-There are different ways and techniques of backing up your files; this is one method for programmers using CENTOS.
+There are different ways and techniques of backing up your (non-project-specific) files; this is one method for programmers using CENTOS.
 
 Setting up the backup script involves a few basic steps.
 

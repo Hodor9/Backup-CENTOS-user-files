@@ -1,0 +1,5 @@
+tar -cvpzf backup.working.$(date +%m_%d_%Y).tar.gz <full path to your target directory>
+tar -cvpzf backup.Desktop.$(date +%m_%d_%Y).tar.gz <full path to your target directory>
+mkdir /run/media/<username>/<name of media>/backup.$(date +%m_%d_%Y)
+mv backup.working.$(date +%m_%d_%Y).tar.gz /run/media/<username>/<name of media>/backup.$(date +%m_%d_%Y)/backup.working.$(date +%m_%d_%Y).tar.gz
+mv backup.Desktop.$(date +%m_%d_%Y).tar.gz /run/media/<username>/<name of media>/backup.$(date +%m_%d_%Y)/backup.Desktop.$(date +%m_%d_%Y).tar.gz
